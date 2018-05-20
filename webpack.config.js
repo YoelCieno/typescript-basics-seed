@@ -1,5 +1,7 @@
 module.exports = {
-  entry: './src/app.ts',
+  entry: ['./src/app.ts', 
+          './src/arrows.ts',
+          './src/function-params.ts'],
   output: {
     filename: 'app.js',
     path: __dirname + './dist'
