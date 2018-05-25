@@ -3,6 +3,8 @@ module.exports = {
           './src/arrows.ts',
           './src/object-literal.ts',
           './src/rest-params.ts',
+          './src/array-spread.ts',
+          './src/destruct-arrays.ts',
           './src/function-params.ts'],
   output: {
     filename: 'app.js',
