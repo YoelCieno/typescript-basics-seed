@@ -4,6 +4,8 @@ module.exports = {
           './src/object-literal.ts',
           './src/rest-params.ts',
           './src/array-spread.ts',
+          './src/numbers.ts',
+          './src/strings.ts',
           './src/destruct-arrays.ts',
           './src/function-params.ts'],
   output: {
