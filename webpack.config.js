@@ -6,6 +6,11 @@ module.exports = {
           './src/array-spread.ts',
           './src/numbers.ts',
           './src/strings.ts',
+          './src/booleans.ts',
+          './src/any.ts',
+          './src/imp-exp-types.ts',
+          './src/void.ts',
+          './src/never.ts',
           './src/destruct-arrays.ts',
           './src/function-params.ts'],
   output: {
