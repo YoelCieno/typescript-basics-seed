@@ -7,6 +7,6 @@ function order({name: pizzaName, toppings:pizzaToppings} : {name: string, toppin
   console.log(pizzaName, pizzaToppings);
 }
 
-order(newPizza);
+// order(newPizza);
 
  

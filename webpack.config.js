@@ -1,6 +1,7 @@
 module.exports = {
   entry: ['./src/app.ts', 
           './src/arrows.ts',
+          './src/function-params.ts',
           './src/object-literal.ts',
           './src/rest-params.ts',
           './src/array-spread.ts',
@@ -11,8 +12,9 @@ module.exports = {
           './src/imp-exp-types.ts',
           './src/void.ts',
           './src/never.ts',
-          './src/destruct-arrays.ts',
-          './src/function-params.ts'],
+          './src/literal.ts',
+          './src/nullandmore.ts',
+          './src/destruct-arrays.ts'],
   output: {
     filename: 'app.js',
     path: __dirname + './dist'
