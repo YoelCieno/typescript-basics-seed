@@ -1,8 +1,8 @@
+let selectTopping: (toppings: string) => void;
+
 let selectedNewTopping: string = 'pepperoni';
 
-function selectTopping(topping: string): void {
-  selectedNewTopping = topping;
-}
+selectTopping = (x) => selectedNewTopping = x;
 
 selectTopping('bacon');
 

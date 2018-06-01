@@ -1,8 +1,8 @@
-const numPizzas: number = 2;
+const numPizzas: number = 3;
 
-function offerDiscount(orders: number): boolean {
-  return orders >= 3;
-}
+let offerDiscount: (orders: number) => boolean;
+
+offerDiscount = (x) =>  x >= 3;
 
 if (offerDiscount(numPizzas)) {
   console.log(`Yo're entitled to a discount!`);
