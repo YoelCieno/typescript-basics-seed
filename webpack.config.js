@@ -13,7 +13,11 @@ module.exports = {
           './src/void.ts',
           './src/never.ts',
           './src/literal.ts',
+          './src/array.ts',
+          './src/object.ts',
           './src/nullandmore.ts',
+          './src/function-default.ts',
+          './src/function-arg.ts',
           './src/function-types.ts',
           './src/destruct-arrays.ts'],
   output: {
