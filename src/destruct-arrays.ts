@@ -2,11 +2,10 @@ const newPizza = {
   name: 'Pepperoni',
   toppings: ['pepperoni']
 };
+let order: ({name: pizzaName, toppings:pizzaToppings} : {name: string, toppings: string[]}) => void;
 
-function order({name: pizzaName, toppings:pizzaToppings} : {name: string, toppings: string[]}) {
-  console.log(pizzaName, pizzaToppings);
-}
+order = ({name:pizzaName, toppings:pizzaToppings}) => console.log(pizzaName, pizzaToppings);
 
-// order(newPizza);
+order(newPizza);
 
  

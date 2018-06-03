@@ -1,8 +1,10 @@
+let selectSize: (size: 'small' | 'medium' | 'large') => void;
+let selectSizeNum: (sizeNum: 1 | 2| 3) => void;
 let pizzaSize: string = 'small';
 
-function selectSize(size: 'small' | 'medium' | 'large'): void {
-  pizzaSize = size;
-}
+selectSize = (s) =>  pizzaSize = s;
+
+console.log(`pizzaSize: ${pizzaSize}`);
 
 selectSize('large');
 
@@ -10,9 +12,9 @@ console.log(`pizzaSize: ${pizzaSize}`);
 
 let pizzaSizeNum: number = 1;
 
-function selectSizeNum(sizeNum: 1 | 2 | 3): void {
-  pizzaSizeNum = sizeNum;
-}
+selectSizeNum = (sN) => pizzaSizeNum = sN;
+
+console.log(`pizzaSizeNum: ${pizzaSizeNum}`);
 
 selectSizeNum(2);
 

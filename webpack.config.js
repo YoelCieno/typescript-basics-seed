@@ -14,7 +14,7 @@ module.exports = {
           './src/never.ts',
           './src/literal.ts',
           './src/nullandmore.ts',
-          './src/function.ts',
+          './src/function-types.ts',
           './src/destruct-arrays.ts'],
   output: {
     filename: 'app.js',
